@@ -1,0 +1,270 @@
+<!DOCTYPE html>
+<html lang="es">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>F1 - Temporada 2025</title>
+  <style>
+    body {
+      background-color: #0b0b0b;
+      color: white;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      margin: 20px;
+    }
+    header {
+      background-color: #e10600;
+      padding: 1rem;
+      text-align: center;
+      font-size: 2rem;
+      font-weight: bold;
+      color: white;
+      margin-bottom: 2rem;
+      border-radius: 8px;
+    }
+    h1, h2, h3 {
+      color: #f0a500;
+      margin-bottom: 10px;
+    }
+    table {
+      width: 100%;
+      border-collapse: collapse;
+      margin-bottom: 40px;
+      box-shadow: 0 0 15px rgba(240, 165, 0, 0.3);
+      background-color: #121212;
+      border-radius: 8px;
+      overflow: hidden;
+    }
+    thead {
+      background-color: #f0a500;
+      color: #121212;
+    }
+    th, td {
+      padding: 12px 15px;
+      text-align: center;
+      border-bottom: 1px solid #444;
+    }
+    tbody tr:hover {
+      background-color: #333;
+      cursor: pointer;
+    }
+    .driver-info, .constructor-info {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+      justify-content: center;
+    }
+    .driver-info img {
+      border-radius: 50%;
+      width: 40px;
+      height: 40px;
+      object-fit: cover;
+      border: 2px solid #f0a500;
+    }
+    .constructor-info img {
+      border-radius: 8px;
+      width: 80px;
+      height: 40px;
+      object-fit: contain;
+      border: none;
+    }
+    /* Estilos para la sección próxima carrera */
+    .next-race {
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      margin-bottom: 2rem;
+    }
+    .next-race img {
+      width: 90%;
+      max-width: 600px;
+      border: 2px solid #e10600;
+      border-radius: 8px;
+      margin-bottom: 1rem;
+    }
+    .next-race p {
+      font-size: 1.1rem;
+    }
+  </style>
+</head>
+<body>
+  <h2>Campeonato de Pilotos F1 2025</h2>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Piloto</th>
+        <th>Equipo</th>
+        <th>Puntos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <!-- Pilotos -->
+      <tr><td>1</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/b/b4/Oscar_Piastri_2022.jpg/120px-Oscar_Piastri_2022.jpg" alt="Oscar Piastri" /><span>Oscar Piastri</span></div></td><td>McLaren</td><td>146</td></tr>
+      <tr><td>2</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lando_Norris_2022.jpg/120px-Lando_Norris_2022.jpg" alt="Lando Norris" /><span>Lando Norris</span></div></td><td>McLaren</td><td>133</td></tr>
+      <tr><td>3</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/60/Max_Verstappen_2017_Malaysia_2.jpg/120px-Max_Verstappen_2017_Malaysia_2.jpg" alt="Max Verstappen" /><span>Max Verstappen</span></div></td><td>Red Bull Racing</td><td>124</td></tr>
+      <tr><td>4</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/99/George_Russell_2022_Austria_3.jpg/120px-George_Russell_2022_Austria_3.jpg" alt="George Russell" /><span>George Russell</span></div></td><td>Mercedes</td><td>99</td></tr>
+      <tr><td>5</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Charles_Leclerc_2019.jpg/120px-Charles_Leclerc_2019.jpg" alt="Charles Leclerc" /><span>Charles Leclerc</span></div></td><td>Ferrari</td><td>61</td></tr>
+      <tr><td>6</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f1/Lewis_Hamilton_2016_Malaysia_1.jpg/120px-Lewis_Hamilton_2016_Malaysia_1.jpg" alt="Lewis Hamilton" /><span>Lewis Hamilton</span></div></td><td>Ferrari</td><td>53</td></tr>
+      <tr><td>7</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7b/Kimi_Antonelli_2022_Silverstone.jpg/120px-Kimi_Antonelli_2022_Silverstone.jpg" alt="Andrea Kimi Antonelli" /><span>Andrea Kimi Antonelli</span></div></td><td>Mercedes</td><td>48</td></tr>
+      <tr><td>8</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/77/Alexander_Albon_2022_Silverstone_2.jpg/120px-Alexander_Albon_2022_Silverstone_2.jpg" alt="Alexander Albon" /><span>Alexander Albon</span></div></td><td>Williams</td><td>40</td></tr>
+      <tr><td>9</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/31/Esteban_Ocon_2021_Austrian_GP.jpg/120px-Esteban_Ocon_2021_Austrian_GP.jpg" alt="Esteban Ocon" /><span>Esteban Ocon</span></div></td><td>Haas</td><td>14</td></tr>
+      <tr><td>10</td><td><div class="driver-info"><img src="https://upload.wikimedia.org/wikipedia/commons/thumb/0/02/Lance_Stroll_2022_Austrian_GP.jpg/120px-Lance_Stroll_2022_Austrian_GP.jpg" alt="Lance Stroll" /><span>Lance Stroll</span></div></td><td>Aston Martin</td><td>14</td></tr>
+      
+    </tbody>
+  </table>
+
+  <h1>Campeonato de Constructores F1 2025</h1>
+  <table>
+    <thead>
+      <tr>
+        <th>#</th>
+        <th>Equipo</th>
+        <th>Monoplaza</th>
+        <th>Puntos</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>McLaren</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/McLaren_MCL60_2023.jpg/320px-McLaren_MCL60_2023.jpg" alt="McLaren MCL60" />
+        </td>
+        <td>279</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Mercedes</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/9/92/Mercedes_W14_2023.jpg/320px-Mercedes_W14_2023.jpg" alt="Mercedes W14" />
+        </td>
+        <td>147</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>Red Bull Racing</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1a/Red_Bull_Racing_RB19_2023.jpg/320px-Red_Bull_Racing_RB19_2023.jpg" alt="Red Bull RB19" />
+        </td>
+        <td>131</td>
+      </tr>
+      <tr>
+        <td>4</td>
+        <td>Ferrari</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/69/Ferrari_F1-75_2023.jpg/320px-Ferrari_F1-75_2023.jpg" alt="Ferrari F1-75" />
+        </td>
+        <td>114</td>
+      </tr>
+      <tr>
+        <td>5</td>
+        <td>Williams</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/1/1e/Williams_FW44_2022.jpg/320px-Williams_FW44_2022.jpg" alt="Williams FW44" />
+        </td>
+        <td>51</td>
+      </tr>
+      <tr>
+        <td>6</td>
+        <td>Haas</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/4/41/Aston_Martin_AMR23_2023.jpg/320px-Aston_Martin_AMR23_2023.jpg" alt="Aston Martin AMR23" />
+        </td>
+<td>20</td>
+</tr>
+<tr>
+<td>7</td>
+<td>Aston Martin</td>
+<td class="constructor-info">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d0/Haas_VF-23_2023.jpg/320px-Haas_VF-23_2023.jpg" alt="Haas VF-23" />
+</td>
+<td>14</td>
+</tr>
+<tr>
+<td>8</td>
+<td>Alpha Tauri</td>
+<td class="constructor-info">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/c/cb/Alfa_Romeo_C43_2023_2023_Formula_1_car_1.jpg/320px-Alfa_Romeo_C43_2023_2023_Formula_1_car_1.jpg" alt="Alfa Romeo C43" />
+</td>
+<td>10</td>
+</tr>
+<tr>
+<td>9</td>
+<td>Alpine</td>
+<td class="constructor-info">
+<img src="https://upload.wikimedia.org/wikipedia/commons/thumb/d/d7/AlphaTauri_AT04_2023.jpg/320px-AlphaTauri_AT04_2023.jpg" alt="AlphaTauri AT04" />
+</td>
+<td>7</td>
+      <tr>
+        <td>10</td>
+        <td>Sauber</td>
+        <td class="constructor-info">
+          <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/McLaren_MCL60_2023.jpg/320px-McLaren_MCL60_2023.jpg" alt="McLaren MCL60" />
+        </td>
+        <td>6</td>
+</tbody>
+
+</table> </body> </html>
+  <h3>Próxima Carrera: Gran Premio de Mónaco 🇲🇨</h3>
+  <div class="next-race">
+    <img src="monaco circuito.png" alt="Circuito de Mónaco" />
+    <p>Domingo 25 de mayo, 7:00 AM (hora CDMX)</p>
+  </div>
+
+  <h3>Calendario de Carreras F1 2025 (Hora México)</h3>
+  <table>
+    <thead>
+      <tr>
+        <th>Fecha</th>
+        <th>Gran Premio</th>
+        <th>Circuito</th>
+        <th>Hora (CDMX)</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr style="background-color: #222;">
+        <td>25 de mayo</td>
+        <td><strong>Gran Premio de Mónaco 🇲🇨</strong></td>
+        <td>Circuit de Monaco</td>
+        <td><strong>07:00</strong></td>
+      </tr>
+      <tr>
+        <td>1 de junio</td>
+        <td>Gran Premio de Canadá 🇨🇦</td>
+        <td>Circuit Gilles Villeneuve</td>
+        <td>12:00</td>
+      </tr>
+      <tr>
+        <td>15 de junio</td>
+        <td>Gran Premio de España 🇪🇸</td>
+        <td>Circuit de Barcelona-Catalunya</td>
+        <td>07:00</td>
+      </tr>
+      <tr>
+        <td>22 de junio</td>
+        <td>Gran Premio de Austria 🇦🇹</td>
+        <td>Red Bull Ring</td>
+        <td>07:00</td>
+      </tr>
+      <tr>
+        <td>29 de junio</td>
+        <td>Gran Premio de Reino Unido 🇬🇧</td>
+        <td>Silverstone Circuit</td>
+        <td>08:00</td>
+      </tr>
+      <tr>
+        <td>6 de julio</td>
+        <td>Gran Premio de Hungría 🇭🇺</td>
+        <td>Hungaroring</td>
+        <td>07:00</td>
+      </tr>
+      <tr>
+        <td>13 de julio</td>
+        <td>Gran Premio de Bélgica 🇧🇪</td>
+        <td>Spa-Francorchamps</td>
+        <td>07:00</td>
+      </tr>
+    </tbody>
+  </table>
+
+</body>
+</html>
